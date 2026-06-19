@@ -1,0 +1,6 @@
+framework module Pods_220QuartzDoctrine {
+  umbrella header "Pods-220QuartzDoctrine-umbrella.h"
+
+  export *
+  module * { export * }
+}
