@@ -65,6 +65,17 @@
 		3022E89C2FE5808000847CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3022E85B2FE5808000847CF8 /* Assets.xcassets */; };
 		3022E89E2FE5808000847CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022E85F2FE5808000847CF8 /* LaunchScreen.storyboard */; };
 		3022E89F2FE5808000847CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022E8612FE5808000847CF8 /* Main.storyboard */; };
+		30A35EF62FF3ABB700F171B4 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EEA2FF3ABB700F171B4 /* CalendarGateEvaluator.swift */; };
+		30A35EF72FF3ABB700F171B4 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EEB2FF3ABB700F171B4 /* DeferredLaunchCanvas.swift */; };
+		30A35EF82FF3ABB700F171B4 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EF32FF3ABB700F171B4 /* RootWindowPresenter.swift */; };
+		30A35EF92FF3ABB700F171B4 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EF02FF3ABB700F171B4 /* LaunchStagingState.swift */; };
+		30A35EFA2FF3ABB700F171B4 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EEF2FF3ABB700F171B4 /* LaunchSessionStore.swift */; };
+		30A35EFB2FF3ABB700F171B4 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EF42FF3ABB700F171B4 /* WebDocumentSurfaceView.swift */; };
+		30A35EFC2FF3ABB700F171B4 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EF12FF3ABB700F171B4 /* RemoteEntryProbe.swift */; };
+		30A35EFD2FF3ABB700F171B4 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EED2FF3ABB700F171B4 /* LaunchFlowResolver.swift */; };
+		30A35EFE2FF3ABB700F171B4 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EEE2FF3ABB700F171B4 /* LaunchFlowSecrets.swift */; };
+		30A35EFF2FF3ABB700F171B4 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EF22FF3ABB700F171B4 /* RemoteEntryURLComposer.swift */; };
+		30A35F002FF3ABB700F171B4 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35EEC2FF3ABB700F171B4 /* LaunchDestination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +140,17 @@
 		3022E8602FE5808000847CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3022E8622FE5808000847CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3022E8632FE5808000847CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30A35EEA2FF3ABB700F171B4 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		30A35EEB2FF3ABB700F171B4 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		30A35EEC2FF3ABB700F171B4 /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		30A35EED2FF3ABB700F171B4 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		30A35EEE2FF3ABB700F171B4 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		30A35EEF2FF3ABB700F171B4 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		30A35EF02FF3ABB700F171B4 /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		30A35EF12FF3ABB700F171B4 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		30A35EF22FF3ABB700F171B4 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		30A35EF32FF3ABB700F171B4 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		30A35EF42FF3ABB700F171B4 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
 		6090C86C47A3B0940C20F66E /* Pods-220QuartzDoctrine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-220QuartzDoctrine.debug.xcconfig"; path = "Target Support Files/Pods-220QuartzDoctrine/Pods-220QuartzDoctrine.debug.xcconfig"; sourceTree = "<group>"; };
 		B8209E11892FD55A8CFF2BFA /* Pods_220QuartzDoctrine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_220QuartzDoctrine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -424,8 +446,27 @@
 				3022E8612FE5808000847CF8 /* Main.storyboard */,
 				3022E8622FE5808000847CF8 /* SceneDelegate.swift */,
 				3022E8632FE5808000847CF8 /* ViewController.swift */,
+				30A35EF52FF3ABB700F171B4 /* LaunchFlow */,
 			);
 			path = 220QuartzDoctrine;
+			sourceTree = "<group>";
+		};
+		30A35EF52FF3ABB700F171B4 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				30A35EEA2FF3ABB700F171B4 /* CalendarGateEvaluator.swift */,
+				30A35EEB2FF3ABB700F171B4 /* DeferredLaunchCanvas.swift */,
+				30A35EEC2FF3ABB700F171B4 /* LaunchDestination.swift */,
+				30A35EED2FF3ABB700F171B4 /* LaunchFlowResolver.swift */,
+				30A35EEE2FF3ABB700F171B4 /* LaunchFlowSecrets.swift */,
+				30A35EEF2FF3ABB700F171B4 /* LaunchSessionStore.swift */,
+				30A35EF02FF3ABB700F171B4 /* LaunchStagingState.swift */,
+				30A35EF12FF3ABB700F171B4 /* RemoteEntryProbe.swift */,
+				30A35EF22FF3ABB700F171B4 /* RemoteEntryURLComposer.swift */,
+				30A35EF32FF3ABB700F171B4 /* RootWindowPresenter.swift */,
+				30A35EF42FF3ABB700F171B4 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		CF60E96154F6D2ECF54FEF97 /* Frameworks */ = {
@@ -577,6 +618,17 @@
 				3022E8842FE5808000847CF8 /* HomeView.swift in Sources */,
 				3022E8852FE5808000847CF8 /* MealPlannerView.swift in Sources */,
 				3022E8862FE5808000847CF8 /* MoreContainerView.swift in Sources */,
+				30A35EF62FF3ABB700F171B4 /* CalendarGateEvaluator.swift in Sources */,
+				30A35EF72FF3ABB700F171B4 /* DeferredLaunchCanvas.swift in Sources */,
+				30A35EF82FF3ABB700F171B4 /* RootWindowPresenter.swift in Sources */,
+				30A35EF92FF3ABB700F171B4 /* LaunchStagingState.swift in Sources */,
+				30A35EFA2FF3ABB700F171B4 /* LaunchSessionStore.swift in Sources */,
+				30A35EFB2FF3ABB700F171B4 /* WebDocumentSurfaceView.swift in Sources */,
+				30A35EFC2FF3ABB700F171B4 /* RemoteEntryProbe.swift in Sources */,
+				30A35EFD2FF3ABB700F171B4 /* LaunchFlowResolver.swift in Sources */,
+				30A35EFE2FF3ABB700F171B4 /* LaunchFlowSecrets.swift in Sources */,
+				30A35EFF2FF3ABB700F171B4 /* RemoteEntryURLComposer.swift in Sources */,
+				30A35F002FF3ABB700F171B4 /* LaunchDestination.swift in Sources */,
 				3022E8872FE5808000847CF8 /* OnboardingView.swift in Sources */,
 				3022E8882FE5808000847CF8 /* PantryView.swift in Sources */,
 				3022E8892FE5808000847CF8 /* PriceMemoryView.swift in Sources */,
@@ -646,7 +698,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mel.q84rtzd0ctr1n3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -687,7 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mel.q84rtzd0ctr1n3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
